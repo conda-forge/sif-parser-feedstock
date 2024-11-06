@@ -1,5 +1,5 @@
 {% set name = "sif-parser" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sif_parser-{{ version }}.tar.gz
-  sha256: ef7b8ea3f89a1e591c661217c8f0c33f913812455fed849990576c5801691f86
+  sha256: 2d48d4df74222de1024d30574cac4a84174a204268ad47ca28d453baf75e6373
 
 build:
   entry_points:
